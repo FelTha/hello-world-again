@@ -1,1 +1,8 @@
+var hamburger = ["test", "data", "yippee"]
+var length = hamburger.length
+var endIndex = length-1
 
+for (i = endIndex; i >= 0; i--) {
+    var oppositeIndex = (i-(length/2))*2
+    console.log(hamburger[oppositeIndex])
+}
